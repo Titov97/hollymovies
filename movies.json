@@ -1,0 +1,2 @@
+[{"model": "viewer.genre", "pk": 1, "fields": {"name": "Horror"}},
+  {"model": "viewer.movie", "pk": 1, "fields": {"title": "Insidious", "genre": 1, "rating": 7, "released": "2022-04-12", "description": "Movie that I don't know about", "created": "2022-05-09T16:20:30.149Z"}}]

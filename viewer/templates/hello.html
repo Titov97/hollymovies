@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h1>welcome to hollymovies!</h1>
+    {% for adjective in adjectives %}
+        {% if adjective != 'cruel' %}
+            <p>This is a {{ adjective }}</p>
+        {% endif %}
+    {% endfor %}
+{% endblock %}

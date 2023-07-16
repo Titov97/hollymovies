@@ -1,0 +1,1 @@
+[{"model": "viewer.genre", "pk": 1, "fields": {"name": "Action"}}, {"model": "viewer.genre", "pk": 2, "fields": {"name": "Horror"}}, {"model": "viewer.movie", "pk": 1, "fields": {"title": "Marvel: Infinity Wr", "genre": 1, "rating": 8, "released": "2022-05-04", "description": "Nice movie", "created": "2022-05-09T16:33:26.053Z"}}]

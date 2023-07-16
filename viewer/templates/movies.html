@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Welcome to hollymovies!</h1>
+<ul>
+    {% for movie in object_list %}
+        <li>
+            {{ movie.title }}
+            {{ movie.title }} {{ movie.released.year }} - {{ movie.genre.name }}
+            <br/>
+            <p>{{ movie.description }}</p>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
